@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #ededed;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto;
+  color: black;
+  text-transform: capitalize;
+  background-color: #8eff72;
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+a:hover {
+  background-color: #5dff35;
+  width: 35%;
+
+}
