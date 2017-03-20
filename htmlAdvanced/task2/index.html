@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <h1>HTML Advanced</h1>
+  <h2>TASK II</h2>
+  <hr>
+  <h2>Registration Form. Get Method</h2>
+  <form action="http://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal Data.</legend>
+        <table>
+          <tr><td><label for="g_f_name">First Name</label></td><td><input type="text" id="g_f_name"></td></tr>
+          <tr><td><label for="g_s_name">Surename</label></td><td><input type="text" id="g_s_name"></td></tr>
+          <tr><td>Sex</td><td><input type="radio" name="sex" value="male" id="g_male"><label for="g_male">Male</label><br>
+                              <input type="radio" name="sex" value="female" id="g_female"><label for="g_female">Female</label></td></tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <table>
+        <tr><td><label for="g_site">Site</label></td><td><input type="text" name="site" id="g_site"></td></tr>
+        <tr><td><label for="g_email">Email</label></td><td><input type="email" name="email" id="g_email"></td></tr>
+        <tr><td><label for="g_phone">Phone</label></td><td><input type="tel" name="phone" id="g_phone"></td></tr>
+      </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+  <br>
+  <!--SECOND FORM-->
+  <h2>Registration Form. Post Method</h2>
+  <form action="http://httpbin.org/post" method="post">
+    <fieldset>
+      <legend>Personal Data.</legend>
+        <table>
+          <tr><td><label for="p_f_name">First Name</label></td><td><input type="text" id="p_f_name"></td></tr>
+          <tr><td><label for="p_s_name">Surename</label></td><td><input type="text" id="p_s_name"></td></tr>
+          <tr><td>Sex</td><td><input type="radio" name="sex" value="male" id="p_male"><label for="p_male">Male</label><br>
+                              <input type="radio" name="sex" value="female" id="p_female"><label for="p_female">Female</label></td></tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <table>
+        <tr><td><label for="p_site">Site</label></td><td><input type="text" name="site" id="p_site"></td></tr>
+        <tr><td><label for="p_email">Email</label></td><td><input type="email" name="email" id="p_email"></td></tr>
+        <tr><td><label for="p_phone">Phone</label></td><td><input type="number" name="phone" id="p_phone"></td></tr>
+      </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+  <br><br><hr>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Advanced I</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body style="margin: 0 auto; width: 80%;">
+  <h1>HTML Advanced</h1>
+  <h2>TASK I</h2>
+  <hr>
+  <!--UL LIST-->
+  <ul>
+    <li><a href="#">Searching</a></li>
+    <li><a href="#">YouTube</a></li>
+    <li><a href="#">Card</a></li>
+    <li><a href="#">Play</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Mail</a></li>
+  </ul>
+  <!--OL LIST-->
+  <ol start="7">
+    <li>Searching</li>
+    <li>Card</li>
+    <li>Market</li>
+    <li>News</li>
+    <li>Dictionaries</li>
+    <li>Pictures</li>
+    <li>Yet
+      <ul>
+        <li>Flights</li>
+        <li>Auto</li>
+        <li>Poster</li>
+        <li>Blogs</li>
+      </ul>
+    </li>
+  </ol>
+  <!--DL LIST-->
+  <dl>
+    <dt>Tag</dt>
+    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+    <dt>The Semantic Webs</dt>
+    <dd>Quis, dolores! Voluptatem quo, ad ex, nemo dolores neque!</dd>
+  </dl>
+  <hr>
+  <h2>CSS Generated Content for Pseudo-Elements</h2>
+  <!--TABLE-->
+  <table>
+    <tr> <td>IE</td> <td>FireFox</td> <td>Chrome</td> <td>Safari</td> <td>Opera</td> <td>iOS Safari</td> <td>Opera mini</td> <td>Android Bowser</td> <td>Chrome for Android</td> </tr>
+    <tr> <td></td>   <td></td>        <td>27</td>     <td></td>       <td></td>      <td></td>           <td></td>           <td></td>               <td></td> </tr>
+    <tr> <td></td>   <td></td>        <td>31</td>     <td></td>       <td></td>      <td></td>           <td></td>           <td>2.3</td>            <td></td> </tr>
+    <tr> <td>8</td>  <td></td>        <td>33</td>     <td></td>       <td></td>      <td></td>           <td></td>           <td>4</td>              <td></td> </tr>
+    <tr> <td>9</td>  <td></td>        <td>34</td>     <td>5.1</td>    <td></td>      <td></td>           <td></td>           <td>4.1</td>            <td></td> </tr>
+    <tr> <td>10</td> <td>30</td>      <td>35</td>     <td>6.1</td>    <td></td>      <td>6/1</td>        <td></td>           <td>4.3</td>            <td></td> </tr>
+    <tr> <td>11</td> <td>31</td>      <td>36</td>     <td>7</td>      <td>23</td>    <td>7.1</td>        <td>7</td>          <td>4.4</td>            <td>36</td> </tr>
+    <tr> <td colspan="9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td> </tr>
+  </table>
+  <hr><br>
+  <!--FORMA-->
+  <form action="#">
+    <fieldset>
+      <legend>Personal data</legend>
+      <!--A simple Form-->
+      Surname <input type="text"><br><br>
+      First name <input type="text"><br><br>
+      Middle Name <input type="text"><br><br>
+      You are <input type="radio" name="sex" value="male"> Male
+      <input type="radio" name="sex" value="female"> Female <br><br>
+      Age <input type="number" min="18" max="101"><br><br>
+      <!--SELECT-->
+      Country of residence
+      <select name="a_select">
+        <option value="russia">Russia</option>
+        <option value="usa">USA</option>
+        <option value="france">France</option>
+        <option value="poland">Poland</option>
+        <option value="germany">Germany</option>
+        <option value="japan">Japan</option>
+        <option value="finland">Finland</option>
+      </select><br><br>
+      <!--PHOTOGRAPHY BUTTON-->
+      Photography:
+      <input type="file" name="image"><br><br>
+      <!--CHECKBOX-->
+      City
+      <input type="checkbox" name="city" value="ryzan"> Ryzan
+      <input type="checkbox" name="city" value="moscow"> Moscow
+      <br><hr><br>
+      <!--DROPDOWN LIST-->
+      Title
+      <select name="b_select" id="b_select">
+        <optgroup label="Technologies">
+          <option value="lorem1">Web Master</option>
+          <option value="lorem1">Data Base Administrator</option>
+          <option value="lorem1">Omputer-aided Design</option>
+        </optgroup>
+        <optgroup label="Finance">
+          <option value="lorem1">Economic Planning</option>
+          <option value="lorem1">Managment Accounting</option>
+          <option value="lorem1">Budgetting and planning</option>
+        </optgroup>
+      </select><br><br>
+      <!--SCROLLER-->
+      Salary
+      <input type="range" class="range" name="range" value="10"><br><br>
+      <!--TEXT AREA-->
+      <textarea name="lorem" id="lorem" cols="50" rows="10" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></textarea>
+    </fieldset><br>
+    <!--SECOND FIELD SET-->
+    <fieldset>
+      <legend>Contact Information</legend>
+      Site <input type="text"><br><br>
+      Email <input type="email"><br><br>
+      Phone <input type="tel"><br><br>
+    </fieldset><br>
+    <!--PASSWORD AREA-->
+    Password <input type="password"><br><br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <br>
+</body>
+</html>

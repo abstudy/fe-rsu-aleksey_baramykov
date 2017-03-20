@@ -1,0 +1,13 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.submit_b{
+  background-image: url('../img/search.jpg');
+  border: none;
+  width:25px;
+  height:25px;
+  background-size:25px;
+  color: transparent;
+}
