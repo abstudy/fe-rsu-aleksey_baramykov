@@ -1,0 +1,8 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+table td, th {
+  border: 1px solid black;
+}
