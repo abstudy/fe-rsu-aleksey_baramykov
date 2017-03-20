@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+
+}
+
+table td {
+  background-color: #42f486;
+}
+
+iframe {
+  width: 100%;
+  border:none;
+  height: 320px;
+}

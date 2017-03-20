@@ -1,0 +1,46 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table{
+  width: 100%;
+}
+
+iframe{
+  width: 100%;
+  border: none;
+  height: 350px;
+}
+
+.t_header td{
+  width: 30%;
+  text-align: center;
+  background-color: #95f922;
+  height: 30px;
+}
+.t_header td a{
+  display: block;
+  text-decoration: none;
+}
+
+.t_body {
+  background-color: #dff442;
+}
+
+.t_footer {
+  font-size: 10px;
+  background-color: #95f922;
+}
+
+.dp_button{
+  background-color: #e2fc20;
+  width: 150px;
+  border: 1px solid #fc1500;
+}
+
+.dp_button a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}

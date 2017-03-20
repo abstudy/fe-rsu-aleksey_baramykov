@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  border:none;
+  height: 320px;
+}
+
+table td {
+  background-color: #adbace;
+}
+
+table td:first-child {
+  width: 30%;
+}
+
+table td a{
+  color: black;
+}
